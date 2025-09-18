@@ -25,12 +25,7 @@ h2 {
         margin-top: 2rem; 
         color: #2c3e50;
         font-size: 1,3rem;
-    }
-
-p, label, textarea {
-        font-size: 1rem;
-        max-width: 700px;
-}    
+    } 
 
 iframe { 
         display: block; 
@@ -106,3 +101,4 @@ button:hover {
     margin: 0.4rem 0;
   }
 }
+
