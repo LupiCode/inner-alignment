@@ -41,15 +41,17 @@ iframe {
         margin-top: 1rem;
     }
 
-textarea { 
-        width: 100%;
-        min-height: 80px;
-        padding: 0.6rem;
-        border-radius: 8px;
-        border: 1px solid #ccc;
-        margin: 0.5rem 0 1rem;
-        resize: vertical; 
-    }
+textarea {
+          width: 100%;
+          max-width: 100%;  /* prevents spilling to the right */
+          box-sizing: border-box; /* makes padding count inside width */
+          min-height: 80px;
+          padding: 0.6rem;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          margin: 0.5rem 0 1rem;
+          resize: vertical;
+}
 
 button { 
         padding: 0.6rem 1rem;
@@ -101,4 +103,5 @@ button:hover {
     margin: 0.4rem 0;
   }
 }
+
 
